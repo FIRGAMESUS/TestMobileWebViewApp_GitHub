@@ -1,24 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Net;
 
 public class MainManager : MonoBehaviour
 {
+    public string country;
+    public Text text;
+    public IPManager IPManager;
+    const string noCountry = "us";
 
     void Start()
     {
-        Debug.Log(IPManager.GetIP(ADDRESSFAM.IPv4));
-        var strHostName = "";
-        strHostName = System.Net.Dns.GetHostName();
-
-        var ipEntry = System.Net.Dns.GetHostEntry(strHostName);
-
-        var addr = ipEntry.AddressList;
-
-        var ip = addr[addr.Length - 1].ToString();
-        Debug.Log(ip);
+        IPManager.GetCountry((callbackText) =>
+        {
+            country = callbackText;
+            if (country == noCountry) GoToGame();
+            else GoWeb();
+        });
     }
 
     

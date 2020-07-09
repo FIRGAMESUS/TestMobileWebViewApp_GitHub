@@ -546,6 +546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1577865409}
   - component: {fileID: 1577865410}
+  - component: {fileID: 1577865412}
   m_Layer: 0
   m_Name: MainManager
   m_TagString: Untagged
@@ -577,6 +578,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0ddfb4739eac68449b2950c063ca739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ipString: 
+  text: {fileID: 1762372903}
+  IPManager: {fileID: 1577865412}
+--- !u!114 &1577865412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577865408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb11015f2ada3d145b7cc7c518b4c3e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1762372901

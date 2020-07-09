@@ -59,19 +59,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11156}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11314}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11354}
+      Script: {instanceID: 11350}
     - Class: 114
-      Script: {instanceID: 11736}
+      Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 12590}
     - Class: 114
-      Script: {instanceID: 15408}
+      Script: {instanceID: 12938}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -324,6 +324,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 4ce15e99c635d2567873d27549d1f16f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -538,12 +544,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
