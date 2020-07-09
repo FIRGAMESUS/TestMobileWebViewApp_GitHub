@@ -1,7 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameManager
+    - IPManager
     - MainManager
+    - SampleWebView
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -11,6 +14,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -35,9 +39,37 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11154}
+    - Class: 114
+      Script: {instanceID: 11314}
+    - Class: 114
+      Script: {instanceID: 11354}
+    - Class: 114
+      Script: {instanceID: 11736}
+    - Class: 114
+      Script: {instanceID: 12118}
+    - Class: 114
+      Script: {instanceID: 12594}
+    - Class: 114
+      Script: {instanceID: 12942}
+    - Class: 114
+      Script: {instanceID: 13294}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/MainScene.unity:
     - Class: 1
@@ -59,19 +91,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11154}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11314}
     - Class: 114
-      Script: {instanceID: 11350}
+      Script: {instanceID: 11354}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11736}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11974}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 12594}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12942}
+    - Class: 114
+      Script: {instanceID: 12944}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -107,9 +141,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11314}
+    - Class: 114
+      Script: {instanceID: 13592}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -324,7 +370,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 4ce15e99c635d2567873d27549d1f16f
+      Hash: 6cc9f0371cadc15e77660dd16ce96f77
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainManager
@@ -516,6 +562,12 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IPManager
+  - hash:
+      serializedVersion: 2
       Hash: aa88ae22474df55295327e4ee99e5a24
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -544,9 +596,27 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: dfd9ee0563efbcbfff8d6b5404b8c24b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: WebViewObject
+  - hash:
+      serializedVersion: 2
+      Hash: 217c791e8205919387e350278600d6ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SampleWebView
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
   - Assets/Scenes/GameScene.unity
   - Assets/Scenes/WebViewScene.unity
-  playerPath: C:/UnityProjects/TestMobileWebViewApp_GitHub/TestMobileWebViewApp/Versions/Test1.apk
+  playerPath: C:/UnityProjects/TestMobileWebViewApp_GitHub/TestMobileWebViewApp/Versions/TestMobileWebViewApp.apk
